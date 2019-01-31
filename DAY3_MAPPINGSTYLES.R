@@ -31,4 +31,24 @@ sa_2 <- sa_1 +
            colour = "orange2")
 sa_2
 #the "\n" indicates a space
+#all maps need scale bar; without=invalid & rejected
+
+
+sa_3 <- sa_2 +
+  scalebar(x.min = 32, x.max = 26, y.min = -36, y.max = -35,          # Set location of bar
+           dist = 200, height = 1, st.dist = 0.8, st.size = 4,        # Set particulars
+           dd2km = TRUE, model = "WGS84") +                           # Set appearance
+  north(x.min = 22.5, x.max = 25.5, y.min = -33, y.max = -31,         # Set location of symbol
+        scale = 1.2, symbol = 16)
+sa_3
+# can change coordinates of scale &labels &northarrow, shifts up down under etc.
+
+#INSETTING
+sa_4 <- sa_3 +
+  annotation_custom(grob = ggplotGrob(africa_map),
+                    xmin = 5.9, xmax = 26.9,
+                    ymin = -30, ymax = -24)
+sa_4
+
+
 
