@@ -1,12 +1,14 @@
+#EXERCISE; 
 #convert .csv to .r data
-library(tidyverse)
+library(tidyverse
 library(scales)
 library(ggsn)
 
-#EXERCISE; 
-lam <- read_csv("data/laminaria.csv")
 
-laminaria <- read_csv("data/laminaria.csv")
+
+laminaria <- read_csv("data/laminaria.csv")  #read csv
+save(laminaria, file = "data/laminaria.RData")   #convert csv to R
+
 
 
 # write 5 lines discussing the library ggsn and the library scale
