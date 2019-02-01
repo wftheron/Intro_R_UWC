@@ -95,4 +95,8 @@ SACTN %>%              # specify dataset
 # 1. give name to columns you want - ""
 # 2. large dataset= na values; therefore, remove (.rm) = TRUE
 #   NA AFFECTS THE OUTCOME, THEREFORE REMOVE
-#
+
+
+
+# Summary() vs
+# Sumarise - used to get mean, med, std dev, name column
