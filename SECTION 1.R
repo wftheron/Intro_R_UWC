@@ -14,3 +14,6 @@
 
 #load libraries
 library(tidyverse)
+load("data/rast_aug.RData")
+
+LOAD DATASET:: SCROLL DOWN
