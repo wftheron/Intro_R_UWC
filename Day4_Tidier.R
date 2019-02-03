@@ -100,3 +100,7 @@ SACTN %>%              # specify dataset
 
 # Summary() vs
 # Sumarise - used to get mean, med, std dev, name column
+
+# SJoh! Nicely done
+# Great use of comments 
+# EXploring always good

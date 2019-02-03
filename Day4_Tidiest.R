@@ -44,3 +44,7 @@ SACTN %>%
     # Many sites; not repeat code= inefficient
     #"Paternoster", "Oudekraal", "Muizenberg", "Humewood" - create set with (c)- concacinate
     # why summarise? need mean and standard dev.
+
+# [A.A]
+# Great job
+# Neat script, shows clear understanding of the code!

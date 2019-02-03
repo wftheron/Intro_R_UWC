@@ -124,3 +124,8 @@ ggplot(data = urine, aes(x = osmo, y = ph)) +
 #Calculate the mean of 1 column of each dataset
 #remember: R = Plotting with a purpose, have hypothesis
 car <- datasets::cars
+
+# Script runs nicely
+# Good source of comments throughout the script
+# Its always good to try different things and play around with the code
+# 

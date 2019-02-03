@@ -94,3 +94,10 @@ lam_new1 <- lam %>%
 #     group_by(site) %>% 
 #     filter(stipe_mass ==mas(stipe_mass)) %>% 
 #     select(site, region, stipe_length)
+
+
+# [A.A]
+# Good source of comments throughout the script
+# The entire script runs
+# Script very neat
+# Nicely done
