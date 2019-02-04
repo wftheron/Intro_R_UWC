@@ -12,3 +12,24 @@
 # Calculate standard error- DAY 1
 # Determine the min and maximum frond length and stipe length
 # Determine the overall summary of the dataset
+
+# load library
+library(tidyverse)
+library(ggpubr)
+library(ggplot2)
+
+# dataset?
+eck <- read_csv("data/ecklonia.csv")
+head(eck)
+tail(eck)
+glimpse(eck)
+
+# Demonstrate the dimensions? -columns, rows
+dim(eck)
+
+# Create three graphs; bargraph, line graph and boxplot: Write hypothesis for each of the graphs and answer these hypotheses
+# Bargraph;
+
+ggplot(eck, aes(x = site, y = stipe_length)) +
+  geom_bar(stat="identity",aes())
+                                                        
