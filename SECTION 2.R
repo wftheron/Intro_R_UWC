@@ -12,6 +12,7 @@
 # Calculate standard error- DAY 1
 # Determine the min and maximum frond length and stipe length
 # Determine the overall summary of the dataset
+#please
 
 # load library
 library(tidyverse)
