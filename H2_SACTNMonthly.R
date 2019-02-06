@@ -13,6 +13,7 @@ library(scales)
 load("data/SACTNmonthly_v4.0.RData")
 
 # Separate date column = to get year on it's own
+<<<<<<< HEAD
 # Extract all from src = KZNSB
 SACTN_sep <- SACTNmonthly_v4.0
 
@@ -21,11 +22,17 @@ SACTN_sep <- SACTNmonthly_v4.0
 # separate date column in order to see years
 # group_by year and site as those are the conscerned variables
 # Summarise- need to work with mean temp; assign new name first
+=======
+# EWxtract all from src = KZNSB
+SACTN_sep <- SACTNmonthly_v4.0
+
+>>>>>>> bf91ca53eef151f72646bb58cc56ce9a02c7fec1
 SACTN_year <- SACTN_sep %>% 
   filter(src == "KZNSB") %>% 
   separate(col = date, into = c("year", "month", "day"), sep = "-") %>% # sep = separated by
   group_by(site, year) %>%         #grouping - 
   summarise(mean_temp = mean(temp, na.rm = TRUE))
+<<<<<<< HEAD
 SACTN_year   # Test plot               
 # Make plot
 
@@ -38,6 +45,13 @@ SACTN_year   # Test plot
 # whereas continuous data can take on any value
 KZNSB_map <- ggplot(SACTN_year, aes(x = year, y = mean_temp)) +
   geom_line(aes(group = site), color = "darkorange") +
+=======
+SACTN_year                  
+# Make plot
+
+KZNSB_map <- ggplot(SACTN_year, aes(x = year, y = mean_temp)) +
+  geom_line(aes(group = site), color = "darkgreen") +
+>>>>>>> bf91ca53eef151f72646bb58cc56ce9a02c7fec1
   facet_wrap(~site, ncol=5) +
   ggtitle("KZNSB: series of annual means") +
   labs(x = "Year", y = "Temperature(°C)") +
@@ -45,6 +59,7 @@ KZNSB_map <- ggplot(SACTN_year, aes(x = year, y = mean_temp)) +
   scale_y_continuous(breaks = c(20, 22,24))
 
 
+<<<<<<< HEAD
 
 # 2 LAMINARIA
 
@@ -94,5 +109,8 @@ tplot <- ggplot(tooth, aes(x = dose, y = len, group = supp, colour, fill = "blac
   geom_bar(position = "identity
   
   tplot
+=======
+  
+>>>>>>> bf91ca53eef151f72646bb58cc56ce9a02c7fec1
 
 
