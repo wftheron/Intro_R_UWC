@@ -9,7 +9,7 @@ library(ggplot2)
 library(lubridate)
 library(scales)
 
-# Load dataframe - alread .R format therefore just load
+# 1 - Load dataframe - alread .R format therefore just load
 load("data/SACTNmonthly_v4.0.RData")
 
 # Separate date column = to get year on it's own
@@ -33,6 +33,6 @@ KZNSB_map <- ggplot(SACTN_year, aes(x = year, y = mean_temp)) +
   scale_y_continuous(breaks = c(20, 22,24))
 
 
-  
+# 2 - laminaria
 
 
