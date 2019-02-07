@@ -51,7 +51,4 @@ sa_4 <- sa_3 +
 sa_4
 
 
-# [A.A]
-# Script runs
-# More comments shows a better understanding
-# Very neat script
+

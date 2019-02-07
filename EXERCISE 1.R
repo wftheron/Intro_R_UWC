@@ -51,8 +51,3 @@ xplot_4 <- ggplot(faith, aes( x = waiting, y = eruptions) +
   
   xplot_4#Laminaria
 lam <- read_csv("data/laminaria.csv")
-
-# [A.A]
-# Many different graphs can be used here to show a better variation but you will learn that during biostats course
-# Nicely done
-# Good comments

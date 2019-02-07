@@ -89,9 +89,6 @@ final_map <- ggplot(data = south_africa_coast, aes(x = lon, y = lat)) +
         legend.position = c(0.55, 0.4)) # Fine tune position of legend
 final_map
 
-# [A.A] 
-# Script runs
-# Original self made comments would show that you understand the code better
 
 
 

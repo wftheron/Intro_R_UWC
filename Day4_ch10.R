@@ -54,9 +54,3 @@ SACTN4_tidy <- left_join(SACTN4a_tidy, SACTN4b_tidy)
 # LEFT JOIN FUNCTION; FOUND WITHIN TIDYVERSE
 # autom detects similar words, R detects similar variables under same columns
 # when you have four different datasheets, want to combine full set
-
-
-# [A.A] 
-# Neat, nicely organised script
-# Great use of comments
-# NIcely done
